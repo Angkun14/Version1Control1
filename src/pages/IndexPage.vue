@@ -23,7 +23,7 @@
         label="อายุ *"
         lazy-rules
         :rules="[
-          val => val !== null && val !== '' || 'กรุณาใส่อายุ',
+          val => val !== null && val !== '' || 'กรุณาใส่อายุ.',
           val => val > 0 && val < 100 || 'กรุณาใส่อายุจริง'
         ]"
       />

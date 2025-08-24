@@ -20,11 +20,11 @@
         filled
         type="number"
         v-model="age"
-        label="อายุ *"
+        label="อายุ นะครั้บ*"
         lazy-rules
         :rules="[
-          val => val !== null && val !== '' || 'กรุณาใส่อายุ.',
-          val => val > 0 && val < 100 || 'กรุณาใส่อายุจริง'
+          val => val !== null && val !== '' || 'กรุณาใส่อายุ นะครั้บ.',
+          val => val > 0 && val < 100 || 'กรุณาใส่อายุจริง นะครั้บ'
         ]"
       />
 

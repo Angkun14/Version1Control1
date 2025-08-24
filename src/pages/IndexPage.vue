@@ -11,7 +11,7 @@
         filled
         v-model="name"
         label="ชื่อ-สกุล *"
-        hint="ชื่อและนามสกุล"
+        hint="ชื่อและนามสกุล."
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'กรุณาพิมพ์ชื่อ']"
       />
